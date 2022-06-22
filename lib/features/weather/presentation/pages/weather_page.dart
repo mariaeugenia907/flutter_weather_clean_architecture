@@ -95,7 +95,7 @@ class WeatherPage extends StatelessWidget {
                             Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Text(
-                                (state.result.temperature-273.15).toString(),
+                                (state.result.temperature-273.75).toStringAsPrecision(3),
                                 style: TextStyle(
                                   fontSize: 16.0,
                                   letterSpacing: 1.2,
