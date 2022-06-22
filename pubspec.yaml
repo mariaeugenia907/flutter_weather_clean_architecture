@@ -13,14 +13,21 @@ dependencies:
 
   equatable:
   dartz:
-  mockito:
   http:
-
+  flutter_bloc:
+  rxdart:
+  get_it:
+  
   cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
+  build_runner:
+  bloc_test:
+  mockito:
+  mocktail:
 
   flutter_lints: ^1.0.0
 

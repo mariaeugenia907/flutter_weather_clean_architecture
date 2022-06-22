@@ -7,6 +7,7 @@ import 'package:mockito/mockito.dart';
 
 import '../../../../helpers/test_helper.mocks.dart';
 
+
 void main() {
   late MockWeatherRepository mockWeatherRepository;
   late GetCurrentWeather usecase;
@@ -29,7 +30,7 @@ void main() {
   const tCityName = 'Jakarta';
 
   test(
-    'should get current weather detail from the repository',
+    'deve obter detalhes meteorológicos atuais do repositório',
     () async {
       when(mockWeatherRepository.getCurrentWeather(tCityName))
           .thenAnswer((_) async => const Right(testWeatherDetail));
